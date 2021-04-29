@@ -74,6 +74,38 @@ namespace csharpi
             {
                 await message.Channel.SendMessageAsync("world!");
             }
+            else if (message.Channel.Id.Equals(614206030372667396) & message.Content.Equals("ping"))
+            {
+                await message.Channel.SendMessageAsync("pong!");
+            }
+            else if (message.Content.Equals("RAWR"))
+            {
+                await message.Channel.SendMessageAsync("RAWR!!!");
+            }
+            else if (message.Content.Equals("!website"))
+            {
+                await message.Channel.SendMessageAsync("https://www.flavcreations.com/");
+            }
+            else if (message.Content.Equals("!twitch"))
+            {
+                await message.Channel.SendMessageAsync("https://www.twitch.tv/flavcreations");
+            }
+            else if (message.Content.Equals("!github"))
+            {
+                await message.Channel.SendMessageAsync("https://github.com/Flavius-The-Person");
+            }
+            else if (message.Content.Equals("!patreon"))
+            {
+                await message.Channel.SendMessageAsync("");
+            }
+            else if (message.Content.Equals("!streamwarriors"))
+            {
+                await message.Channel.SendMessageAsync("https://github.com/Flavius-The-Person/stream-warriors-engine");
+            }
+            else if (message.Content.Equals("!legionslive"))
+            {
+                await message.Channel.SendMessageAsync("Legions Live Game Coming Soon!");
+            }
         }
     }
 }
