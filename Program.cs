@@ -100,7 +100,8 @@ namespace csharpi
             }
             else if (message.Content.Equals("!streamwarriors"))
             {
-                await message.Channel.SendMessageAsync("https://github.com/Flavius-The-Person/stream-warriors-engine");
+                await message.Channel.SendMessageAsync("I made my own engine in java and almost released it! I decided working with a framework  developed for games would be more beneficial so I swapped to monogame." +
+                    " Here is the repo for the stream warriors engine built in native java - https://github.com/Flavius-The-Person/stream-warriors-engine");
             }
             else if (message.Content.Equals("!legionslive"))
             {
