@@ -103,9 +103,9 @@ namespace csharpi
                 await message.Channel.SendMessageAsync("I made my own engine in java and almost released it! I decided working with a framework  developed for games would be more beneficial so I swapped to monogame." +
                     " Here is the repo for the stream warriors engine built in native java - https://github.com/Flavius-The-Person/stream-warriors-engine");
             }
-            else if (message.Content.Equals("!legionslive"))
+            else if (message.Content.Equals("!roleplaygamelive") || message.Content.Equals("!rpglive") || message.Content.Equals("!rpg"))
             {
-                await message.Channel.SendMessageAsync("Legions Live Game Coming Soon!");
+                await message.Channel.SendMessageAsync("I'm working on a new RPG which is mostly meant to be played as a stream game for both the streamer and the viewers! More information coming soon.");
             }
         }
     }
